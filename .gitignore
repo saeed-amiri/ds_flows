@@ -3,15 +3,18 @@
 *.csv
 *.vscode
 *api*
+scheduler/*
 data/*
-logs/*
-*.log*
+**/logs/
+**/*.log
+latest/*
 model/*
 *pkl
 *.zip
 *.tar*
 *.uv.lock
 *.csv
+
 
 
 # Byte-compiled / optimized / DLL files
