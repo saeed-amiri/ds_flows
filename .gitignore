@@ -3,9 +3,9 @@
 *.csv
 *.vscode
 *api*
-scheduler/*
+**/scheduler/
 data/*
-**/logs/
+plugins/*
 **/*.log
 latest/*
 model/*
@@ -15,7 +15,9 @@ model/*
 *.uv.lock
 *.csv
 
-
+!logs/.gitkeep
+!dags/.gitkeep
+!plugins/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
