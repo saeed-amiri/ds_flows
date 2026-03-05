@@ -1,5 +1,8 @@
 # Mein
-
+.venv/*
+**/certs/*
+*.crt
+*.key
 *.csv
 *.vscode
 *api*
